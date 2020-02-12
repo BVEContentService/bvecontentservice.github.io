@@ -22,7 +22,7 @@ url: "https://bvecontentservice.github.io" # the base hostname & protocol for yo
 github_username: zbx1425
 
 # Build settings
-theme: minima
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 
