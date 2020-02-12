@@ -17,17 +17,6 @@
         </label>
 
         <div class="trigger">
-            {% assign categories_list = site.categories %}
-              {% if categories_list.first[0] == null %}
-                {% for category in categories_list %}
-                  <a class="page-link" href="{{'/category?sel=' | append:category[0] | append:'#' | append:category[0] | relative_url }}">{{ category | capitalize }}</a>
-                {% endfor %}
-              {% else %}
-                {% for category in categories_list %}
-                  <a class="page-link" href="{{'/category?sel=' | append:category[0] | append:'#' | append:category[0] | relative_url }}">{{ category[0] | capitalize }}</a>
-                {% endfor %}
-              {% endif %}
-            {% assign categories_list = nil %}
             {%- for path in page_paths -%}
                 {%- assign my_page = site.pages | where: "path", path | first -%}
                 {%- if my_page.navbar -%}
