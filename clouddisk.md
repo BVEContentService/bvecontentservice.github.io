@@ -83,7 +83,7 @@ title: 上传到网盘
 
 搭建好网盘之后，您需要把您的存储库提交到我们的索引，才能让它出现在程序中。
 
-1. 前往 [提交页面](https://zbx1425.gitee.io/bcs-index/submission/)，填写相关信息。已经默认填写的区域是适于TeraCloud的配置项，如使用此网盘则不需更改。
+1. 前往 [提交页面](https://bvecontentservice.gitee.io/bcs-index/submission/)，填写相关信息。已经默认填写的区域是适于TeraCloud的配置项，如使用此网盘则不需更改。
 2. 我们会人工核查您配置的网盘能否正常运作，请您静候佳音。
 
 ### 另见
