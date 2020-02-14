@@ -8,6 +8,10 @@ BVE内容服务系统是由 [@zbx1425](https://github.com/zbx1425) 开发的协�
 
 ## 下载客户端
 
+- 当您安装并运行下列任一程序，既视为您自动接受GNU通用公共授权第三版 (GPLv3) 许可协议的全部内容。如您对该协议的内容有所异议，建议您不要继续使用此程序。
+
+  您可在此阅览该授权的 [中文版本](gplv3_zh.html) 或 [English Version](gplv3.html) 。
+  
 - Android 客户端 （适配Hmmsim一键线路安装）
 
   * [下载APK](https://api.zbx1425.tk:8953/build/bcs-apk)
