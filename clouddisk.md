@@ -17,10 +17,10 @@ title: 上传到网盘
 
 2. 公用源服务器会自动计算元数据，但网盘显然无此功能。因此，您还需要下载元数据生成器。由于懒惰，元数据生成器使用PHP语言编写。请从 [PHP官网](https://windows.php.net/download) 根据您的电脑下载最新的`x64 Thread Safe` ，或`x86 Thread Safe` 版本的Zip压缩包，并解压到`C:\php`。解压时请确保`php.exe `处在 `C:\php\php.exe` 的位置。
 
-3. 请从 [Github](https://github.com/BVEContentService/MetadataGenerator) 下载元数据生成器，点击绿色小按钮并选择 `Download Zip`。将 `metadata-cli.php` 与 `metadata.bat` 解压到您那以Email命名的文件夹**的父文件夹，即外侧文件夹中。**举个例子：
+3. 请从 [Github](https://github.com/BVEContentService/MetadataGenerator) 下载元数据生成器，点击绿色小按钮并选择 `Download Zip`。将 `metadata.php` 与 `metadata.bat` 解压到您那以Email命名的文件夹**的父文件夹，即外侧文件夹中。**举个例子：
 
    ```
-   │  metadata-cli.php
+   │  metadata.php
    │  metadata.bat
    | 
    └─zbx1425.outlook.com
@@ -49,11 +49,13 @@ title: 上传到网盘
    * 主机名：kita.teracloud.jp
    * 端口号：443（默认）
    * 用户名、密码：您比我清楚
-* **高级->目录->远程目录**：/dav
-  
+   
+   * **高级->目录->远程目录**：/dav
+   
    如您使用这组配置时上传速度十分缓慢，您可尝试使用反向代理，也许能有所提升：
    
    * 主机名：api.zbx1425.tk
+   
    * 端口号：8955
    
 2. 把`index`与您Email开头的文件夹上传到远端服务器。应该大致像这样：
@@ -74,9 +76,9 @@ title: 上传到网盘
                MTR Modified Initial System_1.0.ini
                MTR Modified Initial System_1.0_h2.zip
    ```
+
    
-   
-   
+
    ![WinSCP Example](winscp_example.png)
 
 ### 提交服务器
