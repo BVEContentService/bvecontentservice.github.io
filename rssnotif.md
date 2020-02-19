@@ -9,18 +9,18 @@ BVE内容服务现在使用基于 Github Issues 的 Utterances 作为评论系�
 
 **RSS源。**虽说RSS好像不是拿来干这个的，但是评论会通过RSS的方式推送给您。
 
-找一个您喜欢的RSS阅读服务，注意找能够手动添加订阅链接的。就个人试过的来说，PC上可以使用 Outlook 的RSS源功能，移动端上可以使用 [com.madsvyat.simplerssreader](https://cn.apkshub.com/app/com.madsvyat.simplerssreader)，似乎可以用。
+找一个您喜欢的RSS阅读服务，注意找能够手动添加订阅链接的。至于单机阅读器，就个人试过的来说，PC上可以使用 Outlook 的RSS源功能，移动端上可以使用 [com.madsvyat.simplerssreader](https://cn.apkshub.com/app/com.madsvyat.simplerssreader)，似乎可以用。
 
 您的订阅链接是：
 
 ```
-https://api.zbx1425.tk:8953/bcs-src/utterances.php?author=您创建文件夹时使用的Email
+https://api.zbx1425.tk:8953/bcs-ugc/rss.php?author=您创建文件夹时使用的Email
 ```
 
 例如：
 
 ```
-https://api.zbx1425.tk:8953/bcs-src/utterances.php?author=zbx1425@outlook.com
+https://api.zbx1425.tk:8953/bcs-ugc/rss.php?author=zbx1425@outlook.com
 ```
 
 您可以试试在自己的线路下评论，然后添加并刷新订阅。注意打开您软件的定时刷新功能，然后常回家看看……
