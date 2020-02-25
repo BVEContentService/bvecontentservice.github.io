@@ -25,9 +25,9 @@ title: 上传到公用源服务器
 
 ### 刷新数据
 
-公用源有着自动刷新功能，间隔大致 2~8 分钟，您可耐心等待。
+公用源有着自动刷新功能，每5分钟一次，您可耐心等待。
 
-如果您性子比较急，您可以先到 [此页面点击按钮](https://api.zbx1425.tk:8953/bcs-src/metadata.php)， 再打开 [此页面(无任何内容)](https://api.zbx1425.tk:8953/bcs-index/spider.php)，以手动刷新。
+如果您性子比较急，您可以先到 [此页面点击按钮](https://api.zbx1425.tk:8953/bcs-src/metadata.php)， 再打开 [此页面(无任何内容)](https://api.zbx1425.tk:8953/bcs-index/responsemerger.php)，以手动刷新。
 
 回到软件主页，按"刷新"按钮。如果您的配置文件书写无误，您的路线应当出现在列表中。
 
