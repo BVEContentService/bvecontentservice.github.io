@@ -13,8 +13,7 @@ BVE内容服务系统是由 [@zbx1425](https://github.com/zbx1425) 开发的协�
 [![Android下载程序](/assets/images/btn_download_android.png)](https://api.zbx1425.tk:8953/build/bcs-apk)
 [![Android源代码](/assets/images/btn_source_android.png)](https://github.com/BVEContentService/BCSClientAndroid)
 
-如遇任何问题，欢迎联系开发者： [zbx1425@outlook.com](mailto:zbx1425@outlook.com)  
-If any problem is encountered, feel free to contact developer at [zbx1425@outlook.com](mailto:zbx1425@outlook.com)!
+如遇任何问题，欢迎联系开发者： [zbx1425@outlook.com](mailto:zbx1425@outlook.com)
 
 当您传播或修改任一程序，既视为您自动接受GNU通用公共授权第三版 (GPLv3) 许可协议的全部内容。如您对该协议的内容有所异议，建议您不要继续使用此程序。您可在此阅览该授权的 [中文版本](gplv3.html) 。
 

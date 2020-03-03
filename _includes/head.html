@@ -5,6 +5,27 @@
   {%- seo -%}
   <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
 
-  {%- include custom-head.html -%}
+  <script type="text/javascript">
+    var referrer = document.referrer;
+    if (!referrer) {
+        try {
+            if (window.opener)
+                referrer = window.opener.location.href;
+        } 
+        catch (e) {}
+    }
+    if (!referrer) {
+        var language = navigator.languages
+            ? navigator.languages[0]
+            : (navigator.language || navigator.userLanguage)
+        if (language.toLowerCase().includes("zh") && !location.href.toLowerCase().includes("/zh/")){
+            if (!location.origin) {
+                location.origin = location.protocol + "//" + location.hostname 
+                    + (location.port ? ':' + location.port: '');
+            }
+            location.href = location.origin + "/zh" + location.pathname;
+        }
+    }
+    </script>
   
 </head>
