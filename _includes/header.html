@@ -1,11 +1,11 @@
 <header class="site-header" role="banner">
 
   <div class="wrapper">
-    {%- assign default_paths = site.pages | map: "path" -%}
-    {%- assign page_paths = site.header_pages | default: default_paths -%}
+    {% assign default_paths = site.pages | map: "path" %}
+    {% assign page_paths = site.header_pages | default: default_paths %}
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
 
-    {%- if page_paths -%}
+    {% if page_paths %}
       <nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
         <label for="nav-trigger">
@@ -17,14 +17,21 @@
         </label>
 
         <div class="trigger">
-            {%- for path in page_paths -%}
-                {%- assign my_page = site.pages | where: "path", path | first -%}
-                {%- if my_page.navbar -%}
+            {% for path in page_paths %}
+                {% assign my_page = site.pages | where: "path", path | first %}
+                {% if my_page.navbar and (page.url contains '/zh/') == (my_page.navbar.url contains '/zh/') %}
                 <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.navbar | escape }}</a>
-                {%- endif -%}
-            {%- endfor -%}
+                {% endif %}
+            {% endfor %}
+            {% if page.url contains '/zh/' %}
+                {% assign enurl=page.url | replace:'/zh/','/' %}
+                <a class="page-link" style="padding: 5px; border:2px dashed #CCCCCC; border-radius:5px" href="{{ enurl }}">English</a>
+            {% else %}
+                {% assign zhurl=page.url | prepend:'/zh' %}
+                <a class="page-link" style="padding: 5px; border:1px dashed #CCCCCC; border-radius:5px" href="{{ zhurl }}">中文</a>
+            {% endif %}
         </div>
       </nav>
-    {%- endif -%}
+    {% endif %}
   </div>
 </header>
