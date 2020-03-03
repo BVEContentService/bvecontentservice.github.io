@@ -4,19 +4,19 @@ title: Prepare Files
 navbar: "Upload"
 ---
 
-由于内容服务不仅要提供文件，还要提供相关信息、预览图等，所以您需要撰写一些内容与配置文件，并使您的线路档案符合我们所需的格式。
+Because a content service provides not only the file itself, but also informations and thumbnails about the route. So you need to prepare some metadata files, and match your route file with our required format.
 
-如您在遵循此文档操作的过程中遇到问题，欢迎您致函 [zbx1425@outlook.com](mailto:zbx1425@outlook.com) 。但请您**一定在完全阅读本文档且仍无法理解的情况下发送邮件。**对于本文档中已涉及的问题恕不解答。
+Feel free to contact [zbx1425@outlook.com](mailto:zbx1425@outlook.com) if you have trouble following this tutorial. But we will not answer questions already explained in this document, so please **read this document carefully first.**
 
-### 前言
+### Foreword
 
-虽然有些偏题，**请勿高估计算机的智力水平。**虽然有大言不惭之嫌，近年来许多人对于计算机能做到什么这事仍然有些误解。电脑真的都是傻子，所以请您切勿在各类名称或文件等处省下几字，然后指望它能推断一些诸类的事项。您真的必须做到一字不差，否则它就真的不给干活。
+Some word off-course comes first. **Please do not overestimate the intelligence of a computer! **Computers are pretty dumb, so please follow this tutorial precisely, or something might not be working.
 
-虽然本文很长，但这是为了概括到BCS的所有功能，BCS的基础使用并不复杂。您不需采用本文所述的所有功能即可上传路线。如下方标出了一些“高级用法”，您若不需即可不用。
+Although this article is pretty long, but the basic usage of BCS is not that complex as it seems. Only a part of the function described are necessery for uploading a route. Some advanced usages are also covered, which you can ignore if not required.
 
-由于个人语文水平堪忧，下方对于文件夹和文件的描述可能略显抽象。因此在这里先给您一个示例。如果您在阅读下方指南的过程中有所不解，可随时参阅。
+As I am not good at English, the descriptions might not be perfectly clear. So an example is given here for you to refer to if you cannot understand the folder structure described below.
 
-此示例中，一个Email为 1234567890@qq.com 的同志上传了 3 条线路，每条都有路线预览图片，并采取了TXT/HTML描述文字。
+In this case, someone with an email of 1234567890@qq.com uploaded three routes, which each has a thumbnail image and a TXT/HTML description.
 
 ```
 1234567890.qq.com
@@ -41,166 +41,167 @@ navbar: "Upload"
         CSSSC-Guangzhou Metro Line 6_2.0_h2.zip
 ```
 
-### 准备工作
+### Prerequisite
 
-1. 在您的电脑上您喜爱的位置新建一个空文件夹。
-2. 在这个空文件夹之中，新建一个以您目前能够使用的Email为名的文件夹。请将`@`换成`.`。如`zbx1425.outlook.com`。  
-   接下来提到的所有操作都将在这个以您的Email为名的文件夹中进行。
+1. Create an empty folder at a location of your favor.
+2. Create another folder inside this aforementioned folder with a name of your usable email. Please replace`@` to `.`, such as`zbx1425.outlook.com`.  
+   All the following operations should be performed inside this folder.
 
-### 填写个人信息 (仅需一次)
+### Fill in Personal Info
 
-2. **请使用[此处的自动生成工具](https://api.zbx1425.tk:8953/bcs-src/tool/authorini.html)**，填入您的必要信息。将鼠标移动到文本框上即可查看关于填写的指引事项。**请将Description一栏留空。**在工具网页中填好所有内容后，按“提交”，就会自动生成并下载一份`author.ini`文件，您只需将其放置到上述文件夹内即可。必须**直接放在以Email为名的目录**下，而非其子目录内。
+1. This step is only required to be done once.
 
-   部分浏览器可能提醒该文件有安全风险，个人以人格担保请您放一百个心。而且实际上ini文件是纯文字文件，不含程序代码，根本无法对您的电脑进行任何操作。如您实在较为谨慎，也可使用杀毒软件检查。
+2. **Please use [this tool](https://api.zbx1425.tk:8953/bcs-src/tool/authorini.html)** to prepare a file with your information. Hover your mouse over the textboxes and you can see some instructions. **Please leave "Description" empty. ** After filling in all the fields, please press "Submit" and you will get an `author.ini file, which can be put into the said folder. It must be put **directly inside the folder named after your email**, not inside its any subfolders.
+
+   Some browser might suggest this file is malicious. I can promise this is not. And actually ini file only consists of data, not program code, so it is not possible to do harm to your computer. If you want to be cautious, feel free to perform a virus scan.
+
+3. (Optional) You can write a piece of text to better describe yourself. Create `author.txt` besides `author.ini`, and write something inside. (Advanced) If you are familiar with HTML, you can create `author.html` to apply rich text, images and videos on your description page.
+
+4. (Advanced) If you need to modify the ini file, you can refill the form online, or edit it manually. Please use **single-byte double quotation marks** on each side of your text, and please**make sure they match**. Because the windows notepad is not of rich functionality, Sublime Text or Notepad++ is recommended. Please use  `UTF-8` character encoding, and better `without BOM`.
+
+### Fill in Route Info
+
+author.ini must be placed inside the root directory, but the route information may be directly inside or inside any subfolder of the said folder named after your email.
+
+1. **Please use [this tool](https://api.zbx1425.tk:8953/bcs-src/tool/authorini.html)** to prepare a file with your information. Hover your mouse over the textboxes and you can see some instructions.
+   These are some items worth emphasizing:
    
-3. （可选）您可以写一段文字来描述您自己。在`author.ini`文件旁创建`author.txt`，然后在其中写入描述文字。（高级用法）若您熟悉HTML，您可改为创建`author.html`来为您的描述页加上各种特效、图片、视频。
-
-4. （高级用法）如您需要修改ini文件，您既可重新填写生成，也可手动编辑。请一定使用**英文引号**放在您文字的两侧，请注意**检查引号是否配对**。由于Windows自带的记事本功能较少，较推荐您安装使用Sublime Text作为编辑器，或Notepad++。在保存文本时注意采用 `UTF-8` 字符编码，最好`无BOM`。
-
-### 填写线路信息
-
-author.ini必须放置在根目录处，但索引程序对您线路的要求就较松了。您可自由组织目录结构，将以下文件直接放在Email为名的目录内，也可放在其任意子目录内。
-
-1. **请使用[此处的自动生成工具](https://api.zbx1425.tk:8953/bcs-src/tool/packini.html)**。照样是将鼠标移动到文本框上即可查看关于填写的指引事项。
-   此处列出需要强调的几点：
+   **ID must consist of only letters, numbers, dash `-`, BUT NOT UNDERSCORE `_` .**  
+   This is the name displayed inside the menu of Hmmsim. Such as: `Tokyo Metro Tozai Line`, `CWTFSC-Beijing Metro Line 3`
    
-   **ID。必须全英文。可包括26个大小写字母、数字、空格、及横线 `-`，但不要包括下划线 `_` 。**  
-   这是显示在Hmmsim菜单中的名称。例如：`Tokyo Metro Tozai Line`，`CWTFSC-Beijing Metro Line 3`
+   **Route version.** Many authors update their routes regularly, so the client features automatic updating, and will prompt the user to update their route. Only version numbers consists of number and dot are supported, **which should not contain letter or space.** For example, `3.6.1`. If the route you are uploading does not have a version number, or is not important, you can choose at your favor, but `1.0` or `0.0` is recommended.
    
-   **线路版本。**很多作者们和中心们会给线路提供多次更新，因此客户端拥有自动更新功能，当线上的版本号更新时会自动提示下载新版线路。BCS只支持由数字和点组成的版本号，**请勿输入空格和字母。**如`3.6.1`。如果您所上传的线路无版本或并不关心版本号，您可自由发挥，但建议您使用 `1.0` 或 `0.0` 。
+   (Advanced) If you need to issue an update, after uploading the new route file, you can delete the files of the older version. Keeping them is also fine, since the newer route will take the position of the older one, which is only shown if "Show All Routes" is enabled in the settings.
    
-   （高级用法）如需为线路发布更新，在上传新版本线路后，您既可删除旧版本zip、ini等，也可不删除。在默认情况下，新版本线路会自动在软件菜单中顶替掉旧版本线路的位置。如用户打开设置中的“显示所有路线包”，则仍可查看和下载未删除的旧版本线路。
-   
-2. 根据您的线路属于自制还是转载，选择一项：
+2. Choose according to the genre of your route:
 
-   #### 如您要上传的是自制线路：
+   #### If it is an original one:
 
-   1. 正确填入线路信息，推荐您填写Homepage，即线路介绍页面，可以是您的官网网页，也可是贴吧、论坛等发布线路页面等。
+   1. Fill in the informations correctly. Presenting a Homepage is recommended. It can be a page on your official website, or a page at a BBS, etc. **The Origin_LO, Origin_EN and Origin_SA should be left blank.**
 
-   2. （高级用法）如您希望玩家在下载时要阅览您的Homepage，可勾选 AutoOpen， 这样按下下载按钮后即会自动弹出。如您想要使用某种方式保证玩家读完您的主页上部分内容，您可在主页添加一个指向`bcs://startDownload`的链接，并勾选 ForceView，这样只有点击您的这一链接才能开始下载。*注意：若您没有设置这一链接却勾选了ForceView，就无人可下到线路。*
+   2. (Advanced) If you want the players to take a look at your homepage, you can tick "AutoOpen", so that your homepage will pop up once the download button is pressed. If you want to force your players read your homepage, you can tick "ForceView" and add a link pointing to `bcs://startDownload`, which will become the only way to start the download. *Caution: If you ticked "ForceView" without adding this link, then no one will be able to download the route.*
 
-   3. （高级用法）您可使用RouteObfuscator混淆线路以缩减大小并尽量阻止侵权行为。
+   3. (Advanced) You can use RouteObfuscator to shrink the size of your route, and make some trouble for the copyright violators.
 
-   4. 根据您所使用的网盘, 选择一项：
+   4. Choose according to the web drive you are using:
 
-      - 您不使用网盘：  
-        **必须** 上传文件
+      - You are not using a web drive:  
+        Uploading file is **REQUIRED** 
 
-        显而易见，不是么？hhh
+        Pretty appearant, isn't it?
 
-      - 该网盘不可在浏览器中下载(如百度云网盘等必须安装客户端)：  
-        或者该网盘国内无法访问或速度极慢(如Google Drive, Dropbox)：  
-        **必须** 上传文件
+      - The web drive does not allow downloading via browser (For example. a client is required):  
+        Or for region compability (For example, you are using Google Drive, Dropbox, or Megaup):  
+        Uploading file is **REQUIRED** 
 
-        这网盘有和没有一样……或者您可考虑换个网盘。
+        This drive is nearly useless. At least for someone in some country. Consider replacing, or upload to our server if you cannot find a nice alternative.
 
-      - 线路文件在外链网盘(即不需中途进入网盘网站，点击链接即可直接下载到文件)：  
-        **不需** 上传文件
+      - The web drive features direct link (Such as TeraCloud):  
+        Uploading file is **NOT NECESSERY** 
 
-        1. 链接 File_H2，填入zip文件链接  
-           如 `https://nicedisk-12345678.cos.ap-chengdu.myqcloud.com/Saijo-sen.zip`
-        2. 设定 FileSize_H2，填入文件大小，如"15.3MB"
-        3. 勾选 AutoOpen
+        1. Fill in the url of the file into File_H2. 
+        2. Set FileSize_H2 to the size of the file, such as "15.3MB".
+        
+      - The web drive has a web page, in which you click a button to start your download:  
+     Uploading file is **NOT NECESSERY** 
+      
+        1. Fill in the url of the web page into File_H2. 
+     2. Set FileSize_H2 to the size of the file, such as "15.3MB".
+        3. Tick GuidedDownload.
+        4. Consider adding some instruction for the users when writing description (Since the download button can be difficult to find for some web drives)
 
-      - 线路文件在非外链网盘(必须进入网盘网站，在该处按一个下载按钮才可下载到文件)：  
-        **不需** 上传文件
+   #### If you are reposting work of others:
 
-        1. 链接 File_H2，填入网盘页面链接  
-           如 `https://ux.getuploader.com/hi03_RTM_NP/download/13`
-        2. 设定 FileSize_H2，填入文件大小，如"15.3MB"
-        3. 勾选 GuidedDownload
-        4. 在书写描述文字时，要添加协助玩家从网盘下载文件的操作说明（因为有些网盘有着英文或日文界面，很可能难以找到下载按钮）
+   1. **Fill in route information and original author information correctly**  
+      **IT IS YOUR OBLIGATION TO DO THIS.**
 
-   #### 如您要上传的是转载线路：
+   2. **Set Homepage to the page on which the original author releases his or her route** (i.e. Do Not just put the download page there, but the page with some words by the author. This is to give credit.)  
+      Such as  `http://www.csssc.com.cn/lgz1.html`  
+      **IT IS YOUR OBLIGATION TO DO THIS.** Admin team will remove your route if this is not correctly set up.
 
-   1. **正确填入线路信息和转载原作者信息**  
-      **必须填写。**将鼠标放到文本框上会弹出填写提示。选中文本框可以让填写提示不消失。
+   3. **Beautify your description text**  
+      A nice description can attract players.  
+      And do not forget to be thankful to the original author.
 
-   2. **在Homepage填入作者发布路线的页面**  
-      例如  `http://www.csssc.com.cn/lgz1.html`  
-      **必须填写。**管理团队将随时删除没有正确填写Homepage的线路，恕不通知。
+   4. Choose according if you are authorized to repost this route:
 
-   3. **先仔细润色一下描述文字**  
-      线路描述可以吸引玩家下载您的线路。  
-      并且请您一定要使用各种溢美之词表示对线路质量的赞美和对原作者的感谢。
+   - If you are authorized by the author:  
+     Automatic Installation is **POSSIBLE** 
 
-   4. 根据是否获得了转载授权，选择一项：
+     - If the original author has uploaded a Hmmsim route package:  
+       Choose according to the web drive used by the author:
+       - The web drive does not allow downloading via browser (For example. a client is required):  
+         Or for region compability (For example, you are using Google Drive, Dropbox, or Megaup):   
+         Uploading file is **REQUIRED** 
+       - The web drive features direct link (Such as TeraCloud):  
+         Uploading file is **NOT NECESSERY** 
+         1. Fill in the url of the file into File_H2. 
+         2. Set FileSize_H2 to the size of the file, such as "15.3MB".
+       - The web drive has a web page, in which you click a button to start your download:  
+         Uploading file is **NOT NECESSERY** 
+         1. Fill in the url of the web page into File_H2. 
+         2. Set FileSize_H2 to the size of the file, such as "15.3MB".
+         3. Tick GuidedDownload.
+         4. Consider adding some instruction for the users when writing description (Since the download button can be difficult to find for some web drives)
+     - If only openBVE or BVE4 version is present:  
+       Uploading file is **REQUIRED** 
+       1. Use the Hmmsim Convertor to convert the route.
+       2. (Advanced) You can use RouteObfuscator to shrink the size of your route, and make some trouble for the copyright violators.
 
-   - 已获作者许可转换与转载：  
-     **可以** 自动安装
-     - 作者在官网提供了Hmmsim版线路下载链接：  
-       根据作者所使用的网盘, 选择一项：
-       - 线路文件不可在浏览器中下载(如百度云网盘等必须安装客户端)：  
-         或者该网盘国内无法访问或速度极慢(如Google Drive, Dropbox)：  
-         **必须** 上传文件
-         1. （高级用法）推荐使用RouteObfuscator混淆线路以缩减大小并尽量阻止侵权行为
-         2. 勾选 AutoOpen
-       - 线路文件在外链网盘(即不需中途进入网盘网站，点击链接即可直接下载到文件)：  
-         **不需** 上传文件
-         1. 链接 File_H2，填入zip文件链接  
-            如 `https://nicedisk-12345678.cos.ap-chengdu.myqcloud.com/Saijo-sen.zip`
-         2. 设定 FileSize_H2，填入文件大小，如"15.3MB"
-         3. 勾选 AutoOpen
-       - 线路文件在非外链网盘(必须进入网盘网站，在该处按一个下载按钮才可下载到文件)：  
-         **不需** 上传文件
-         1. 链接 File_H2，填入网盘页面链接  
-            如 `https://ux.getuploader.com/hi03_RTM_NP/download/13`
-         2. 设定 FileSize_H2，填入文件大小，如"15.3MB"
-         3. 勾选 GuidedDownload
-         4. 在书写描述文字时，要添加协助玩家从网盘下载文件的操作说明（因为许多网盘有着英文或日文界面，很可能难以找到下载按钮）
-     - 作者只提供了OpenBVE或BVE4版线路下载链接：  
-       **必须** 上传文件
-       1. 使用Hmmsim转换程序将线路转换为Hmmsim版
-       2. （高级用法）推荐使用RouteObfuscator混淆线路以缩减大小并尽量阻止侵权行为
-   - 未获作者许可：  
-     **注意！如果原作者未提供Hmmsim版线路，您不能按下面执行——必须获得许可才可转换线路。**  
-     **严禁** 上传文件  
-     根据作者所使用的网盘, 选择一项：
-     - 线路文件可直接在浏览器中下载(如Uploader.jp等网盘)：  
-       **可以** 自动安装
-       1. 链接 File_H2，填入路线发布页链接  
-          如 `http://tozai.s77.xrea.com/BVE/ETozai.html`
-       2. 设定 FileSize_H2，填入文件大小，如"15.3MB"
-       3. 勾选 GuidedDownload 
-       4. 在书写描述文字时，要添加协助玩家从发布页进入网盘页面，并从网盘下载文件的操作说明（因为许多网盘有着英文或日文界面，很可能难以找到下载按钮）
-     - 线路文件不可在浏览器中下载(如百度云网盘等必须安装客户端)：  
-       **无法** 自动安装
-       1. 勾选 NoFile
-       2. 在书写描述文字时，要添加提供协助玩家全手动下载与安装路线的说明。
+   - If you are not authorized:  
+     **If Hmmsim route package is not presented by the author, DO NOT follow these steps, since converting a route requires author's permission.**  
+     Uploading file is **STRICTLY FORBIDDEN**  
+     Choose according to the web drive used by the author:
 
-3. **书写描述文字。请将Description一栏留空。**虽然描述文字并非必须，但写一段描述文字可以让玩家更快了解您的线路。和上面一样，照样是txt和html都可以使用，放在ini旁边即可。  
-   **文件名应与ini的文件名相同**，如`MTR Modified Initial System_1.0.ini` -> `MTR Modified Initial System_1.0.txt`。不过考虑到一些线路版本间描述信息无大变化，因此名称既可加也可不加版本号，如 `MTR Modified Initial System_1.0.txt` 与 `MTR Modified Initial System.txt` 均有效。  
-   如同时存在，将优先选择有着对应版本号的描述文件。  
-   （高级用法）**也可使用外部网站上内容作描述文字。**此时在Description框内直接填入其网址即可。
+     - The web drive allows downloading via browser (Direct link or web page):  
+       Automatic Installation is **POSSIBLE** 
 
-4. （可选）**设置路线预览图片。**索引程序接受 png 与 jpg 格式图片，同样是版本号加不加均可。如 `MTR Modified Initial System.png `，同样放置在ini旁边即自动识别。图片也可省略，如省略会使用倒也不难看的默认图片。  
-   （高级用法）**如您使用外部图床**，您可在底部Thumbnail一栏填入图片直链地址，如 `https://openbve-project.net/images/logo.png` 来人工指定预览图片，同时不要在目录下放置图片既可。
+       1. Fill in the url of the web page **on which the author releases the route** (i.e. The Homepage. Do Not just put the download page there, but the page with some words by the author. This is to give credit.) into File_H2. 
 
-   重要的事情说两遍：描述文件和预览图片要与 ini 文件放置在**同一目录下**，也就是放在它旁边。 
+       2. Set FileSize_H2 to the size of the file, such as "15.3MB".
 
-### 准备上传文件
+       3. Tick GuidedDownload.
 
-若您的线路符合上述“必须上传文件”的情况，请准备好您的zip格式线路档，并改为适当名称以便索引程序搜索。如您不需上传文件，直接到下一步即可。
+       4. Consider adding some instruction for the users when writing description (Since the download button can be difficult to find for some web drives)
 
-复制过来您所有的zip格式线路档，并将其命名为：
+     - The web drive does not allow downloading via browser (For example. a client is required):    
+       Automatic Installation is **IMPOSSIBLE** 
+
+       1. Tick NoFile
+       2. Consider adding some instruction for the users when writing description.
+
+3. **Leave the "Description" field empty.** Although it is not required, writing a piece of text will attract players and let them know about your route. Just like the `author.txt` above, both TXT and HTML are valid, and just place them right besides the ini file.
+
+   **The filename should be identical to that of the ini file**, such as`MTR Modified Initial System_1.0.ini` -> `MTR Modified Initial System_1.0.txt`. As the description can be identical between versions, the version number can be omitted, which means  `MTR Modified Initial System_1.0.txt`  and  `MTR Modified Initial System.txt`  are both valid.  If both are present, the one with associating version number takes priority.  
+   (Advanced) **Contents on external websites can also be used.** Just fill its url into the Description field.
+
+4. (Optional) **Set a thumbnail.** Both jpg and png are accepted **(Extension should be in lowercase)**, and omitting version number is supported, such as `MTR Modified Initial System.png `. Just place it right besides the ini file. If it is not set, a default picture will be used.  
+   (Advanced) **If external image storage is used**, You can set the Thumbnail field to the url of your file, such as  `https://openbve-project.net/images/logo.png` , while not putting any picture inside the directory.
+
+   Important: The description file and thumbnail image must be in the **same directory** as the ini file, RIGHT besides it.
+
+### Prepare to Upload the Files
+
+If uploading a file is required as described before, please prepare all your zip route packages, and change the name of them properly so that the index program can handle them. Skip this step if uploading is not required.
+
+Copy all your zip files and place them beside the associated ini file. The filename should be in this pattern:
 
 ```
-[ID]_[版本号]_[模拟程序].zip
+[ID]_[Version]_[Program].zip
 ```
 
-“模拟程序”部分中，`h2 `代表Hmmsim2，`ob`代表openBVE，`b5`代表BVE5。（可惜当前尚未支持OB与B5）
-代表模拟程序的字母应小写。您还可参照最上方目录树样例。例如：
+For "Program", `h2` is for Hmmsim2, `ob` is for openBVE, and `b5` is for BVE5. (ob and b5 are unfortunately currently not supported.) The letters should be lowercase. You can refer to the sample directory tree structure described at the start of this document. An example is:
 
 ```
 MTR Modified Initial System_1.0_h2.zip
 ```
 
-### 避坑指南
+### Avoid Common Mistakes
 
-此处列出几种常见错误，请您注意检查，以免无法正常运作：
+These are some frequent mistakes. Please do a check in case you made one:
 
-1. 文件名不匹配  
-   上述多个线路相关文件的命名方式都牵扯到ID、模拟程序、版本号等。简单地说，ini文件名称中必含ID、必含版本号、不含模拟程序类型；jpg、txt、html等含ID，可含也可不含版本号、不含模拟程序类型；zip文件则三个都要含有。
+1. Unmatching file names  
+   ID, Version and Program are three basic parts of BCS file names. Basically, ID and Version are included in INI, while Program is not. ID and optional, Version are included in JPG, PNG, TXT or HTML, while Program is not. All of these three are included in ZIP.
 
    ```
    XiJing Metro Line 3_1.0.ini
@@ -208,63 +209,64 @@ MTR Modified Initial System_1.0_h2.zip
    XiJing Metro Line 3 Beta ver 1.0.zip
    ```
 
-   ↑ 这样命名可不行！必须得严格按照格式，前后不能多也不能少。
+   ↑ Naming must follow the pattern strictly, with no exception.
 
    ```
    XiJing Metro Line 3_1.0.ini
-   XiJing Metro Line 3.jpg
+   XiJing Metro Lne 3.jpg
    XiJing Metro Line 3_1.0 .zip
    ```
 
-   ↑ 仔细看看，某处是不是多了个空格？空格也会影响索引程序的判断。
+   ↑ Is there any missing character or extra space? Spaces mislead the index program.
 
-2. 文件夹目录结构  
-   首先，author.ini必须直接就在这个以Email为名的文件夹之中的。不要在外面也不要在子文件夹里。
-   其次，请记住BCS索引程序是以ini文件为中心的，也就是说其他文件只要在ini的正旁边就能被找到。
-
-   ```
+2. Folder structure  
+   First of all, author.ini must be directly inside the folder named after your email, not outside and not inside a subfolder. Also, the BCS index program searches around the ini file, so just put your files beside it and they will get found.
+   
+```
    1234567890.qq.com
    ├─CSSSC-Guangzhou Metro Line 1
    │      author.ini
    │      CSSSC-Guangzhou Metro Line 1_1.1.ini
    │      CSSSC-Guangzhou Metro Line 1_1.1_h2.zip
    ```
-
-   ↑ author.ini的位置不对。
-
-   ```
+   
+↑ author.ini is not in correct position.
+   
+```
    1234567890.qq.com
    │ author.ini
    │ CSSSC-Guangzhou Metro Line 1_1.1.ini
    ├─CSSSC-Guangzhou Metro Line 1
    │      CSSSC-Guangzhou Metro Line 1_1.1_h2.zip
    ```
-
-   ↑ zip没有和ini在一起，因此索引程序找不到线路包文件。
-
-   ```
+   
+↑ zip is not along with ini, so it cannot be found.
+   
+```
    1234567890.qq.com
    │ author.ini
    │ CSSSC-Guangzhou Metro Line 1_1.1.ini
    │ CSSSC-Guangzhou Metro Line 1_1.1_h2.zip
    ```
+   
+↑ As long as ini and zip are together, the directory they are in does not matter. They can be directly in, or in any subfolder of the folder named after your email.
 
-   ↑ 只要ini和zip在一起，到底在哪个目录里，还是直接在根目录中其实无所谓。
+### What's next?
 
-### 接下来呢?
+The Content Service System is not designed to be of only one server, since an individual server is not only limited, but also expensive. Maintaining such a server also exceeds my ability. So, we recommend you upload your routes to free, direct link storage services such as Pages, to distribute the load. These are some nice free services from the perspective of China:
 
-内容服务平台没有被设计成由一个单一的服务器组成的平台，因为单一的服务器不仅储量有限，且价格昂贵，维护如此的服务器也超出了个人拥有的人力物力。因此，我们十分建议各位尽量把路线档上传到各类Pages等在线免费可外链存储、托管服务，以分散载荷。较好的免费文件托管方式如下：
+| Name                             | File Size Limit | Repository Size Limit | Total Size Limit        |
+| -------------------------------- | --------------- | --------------------- | ----------------------- |
+| Gitee Pages                      | 100MB           | 500MB                 | 5GB per account         |
+| TeraCloud                        | Unlimited       | Not divided           | 20GB per account        |
+| **Tianjin Public Source Server** | 1000MB          | Not divided           | 58GB shared by everyone |
 
-| 服务名称             | 单文件大小限制 | 单储存库限制 | 总大小限制 |
-| -------------------- | -------------- | ------------ | ---------- |
-| 码云Pages            | 100MB          | 500MB        | 每人 5GB   |
-| TeraCloud            | 无限制         | 不分库       | 每人 20GB  |
-| **天津公用源服务器** | 1000MB         | 不分库       | 共用 58GB  |
+Overall speaking, Gitee Pages works fine, but the single file size limit is quite strict. Teracloud is also nice, but the download speed is poor in some regions of China, please see if it is acceptable via reverse proxy (See TeraCloud uploading document for detail). If these are not available, you can choose to use our Public Source Server. But if you want to save effort, Public Source Server is the easiest to use.
 
-总体来说，码云Pages综合性能最佳，但单文件大小卡得较死；TeraCloud很好，但部分运营商访问速度较慢，请尝试直连或反向代理后(详见TeraCloud上传教程)速度是否可接受；如有问题再使用公用源服务器。不过如果您想省事，直接公用源就完了。
+Also, we are currently short of storage spaces. if you host a server and are willing to help, please let us know! Hooking up one will not be difficult, just a 24 hour running computer, a Raspberry Pi, or even modifing your router will do the job.
 
-请根据您线路的条件选择相应教程：
+Please choose a manual according to your selection:
 
-* [上传到TeraCloud或其它外链网盘](clouddisk.html)
-* [上传到公用源服务器](publicsrc.html)
-* 上传到Pages或其它Git服务
+* [Upload to TeraCloud or other direct link web drive](clouddisk.html)
+* [Upload to Public Source Server](publicsrc.html)
+* Upload to Pages or other git services
