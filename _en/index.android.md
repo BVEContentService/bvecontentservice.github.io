@@ -11,7 +11,8 @@ If any problem is encountered, feel free to contact developer at [zbx1425@outloo
     <p>
         If you are facing a really poor download speed, please try to turn on "Use Reverse Proxy" in settings. This <b>might</b> speed up the download. Turn it off again if it is not helping.
     </p>
-</div
+</div>
+
 
 
 Most of the route resources in this software are hosted at own expense by **[@zbx1425](https://www.zbx1425.tk)**, while some are hosted with Pages or TeraCloud.

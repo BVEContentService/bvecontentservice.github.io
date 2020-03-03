@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 准备文件
-navbar: "上传教程"
+title: Prepare Files
+navbar: "Upload"
 ---
 
 由于内容服务不仅要提供文件，还要提供相关信息、预览图等，所以您需要撰写一些内容与配置文件，并使您的线路档案符合我们所需的格式。
