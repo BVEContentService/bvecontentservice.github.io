@@ -24,13 +24,13 @@ navbar: "上传教程"
 │
 ├─CSSSC-Guangzhou Metro Line 1
 │      CSSSC-Guangzhou Metro Line 1_1.1.ini
-|      CSSSC-Guangzhou Metro Line 1.txt
+│      CSSSC-Guangzhou Metro Line 1.txt
 │      CSSSC-Guangzhou Metro Line 1.jpg
 │      CSSSC-Guangzhou Metro Line 1_1.1_h2.zip
 │
 ├─CSSSC-Pyongyang Metro CLM Line
 │      CSSSC-Pyongyang Subway CLM Line_1.1_h2.zip
-|      CSSSC-Pyongyang Subway CLM Line.html
+│      CSSSC-Pyongyang Subway CLM Line.html
 │      CSSSC-Pyongyang Subway CLM Line.jpg
 │      CSSSC-Pyongyang Subway CLM Line_1.1.ini
 │
@@ -44,7 +44,7 @@ navbar: "上传教程"
 ### 准备工作
 
 1. 在您的电脑上您喜爱的位置新建一个空文件夹。
-2. 在这个空文件夹之中，新建一个以您目前能够使用的Email为名的文件夹。请将`@`换成`.`。如`zbx1425.outlook.com`。
+2. 在这个空文件夹之中，新建一个以您目前能够使用的Email为名的文件夹。请将`@`换成`.`。如`zbx1425.outlook.com`。  
    接下来提到的所有操作都将在这个以您的Email为名的文件夹中进行。
 
 ### 填写个人信息 (仅需一次)
@@ -64,7 +64,7 @@ author.ini必须放置在根目录处，但索引程序对您线路的要求就�
 1. **请使用[此处的自动生成工具](https://api.zbx1425.tk:8953/bcs-src/tool/packini.html)**。照样是将鼠标移动到文本框上即可查看关于填写的指引事项。
    此处列出需要强调的几点：
    
-   **ID。必须全英文。可包括26个大小写字母、数字、空格、及横线 `-`，但不要包括下划线 `_` 。**
+   **ID。必须全英文。可包括26个大小写字母、数字、空格、及横线 `-`，但不要包括下划线 `_` 。**  
    这是显示在Hmmsim菜单中的名称。例如：`Tokyo Metro Tozai Line`，`CWTFSC-Beijing Metro Line 3`
    
    **线路版本。**很多作者们和中心们会给线路提供多次更新，因此客户端拥有自动更新功能，当线上的版本号更新时会自动提示下载新版线路。BCS只支持由数字和点组成的版本号，**请勿输入空格和字母。**如`3.6.1`。如果您所上传的线路无版本或并不关心版本号，您可自由发挥，但建议您使用 `1.0` 或 `0.0` 。
@@ -83,29 +83,29 @@ author.ini必须放置在根目录处，但索引程序对您线路的要求就�
 
    4. 根据您所使用的网盘, 选择一项：
 
-      - 您不使用网盘：
+      - 您不使用网盘：  
         **必须** 上传文件
 
         显而易见，不是么？hhh
 
-      - 该网盘不可在浏览器中下载(如百度云网盘等必须安装客户端)：
-        或者该网盘国内无法访问或速度极慢(如Google Drive, Dropbox)：
+      - 该网盘不可在浏览器中下载(如百度云网盘等必须安装客户端)：  
+        或者该网盘国内无法访问或速度极慢(如Google Drive, Dropbox)：  
         **必须** 上传文件
 
         这网盘有和没有一样……或者您可考虑换个网盘。
 
-      - 线路文件在外链网盘(即不需中途进入网盘网站，点击链接即可直接下载到文件)：
+      - 线路文件在外链网盘(即不需中途进入网盘网站，点击链接即可直接下载到文件)：  
         **不需** 上传文件
 
-        1. 链接 File_H2，填入zip文件链接
+        1. 链接 File_H2，填入zip文件链接  
            如 `https://nicedisk-12345678.cos.ap-chengdu.myqcloud.com/Saijo-sen.zip`
         2. 设定 FileSize_H2，填入文件大小，如"15.3MB"
         3. 勾选 AutoOpen
 
-      - 线路文件在非外链网盘(必须进入网盘网站，在该处按一个下载按钮才可下载到文件)：
+      - 线路文件在非外链网盘(必须进入网盘网站，在该处按一个下载按钮才可下载到文件)：  
         **不需** 上传文件
 
-        1. 链接 File_H2，填入网盘页面链接
+        1. 链接 File_H2，填入网盘页面链接  
            如 `https://ux.getuploader.com/hi03_RTM_NP/download/13`
         2. 设定 FileSize_H2，填入文件大小，如"15.3MB"
         3. 勾选 GuidedDownload
@@ -113,67 +113,67 @@ author.ini必须放置在根目录处，但索引程序对您线路的要求就�
 
    #### 如您要上传的是转载线路：
 
-   1. **正确填入线路信息和转载原作者信息**
+   1. **正确填入线路信息和转载原作者信息**  
       **必须填写。**将鼠标放到文本框上会弹出填写提示。选中文本框可以让填写提示不消失。
 
-   2. **在Homepage填入作者发布路线的页面**
-      例如  `http://www.csssc.com.cn/lgz1.html`
+   2. **在Homepage填入作者发布路线的页面**  
+      例如  `http://www.csssc.com.cn/lgz1.html`  
       **必须填写。**管理团队将随时删除没有正确填写Homepage的线路，恕不通知。
 
-   3. **先仔细润色一下描述文字**
-      线路描述可以吸引玩家下载您的线路。
+   3. **先仔细润色一下描述文字**  
+      线路描述可以吸引玩家下载您的线路。  
       并且请您一定要使用各种溢美之词表示对线路质量的赞美和对原作者的感谢。
 
    4. 根据是否获得了转载授权，选择一项：
 
-   - 已获作者许可转换与转载：
+   - 已获作者许可转换与转载：  
      **可以** 自动安装
-     - 作者在官网提供了Hmmsim版线路下载链接：
+     - 作者在官网提供了Hmmsim版线路下载链接：  
        根据作者所使用的网盘, 选择一项：
-       - 线路文件不可在浏览器中下载(如百度云网盘等必须安装客户端)：
-         或者该网盘国内无法访问或速度极慢(如Google Drive, Dropbox)：
+       - 线路文件不可在浏览器中下载(如百度云网盘等必须安装客户端)：  
+         或者该网盘国内无法访问或速度极慢(如Google Drive, Dropbox)：  
          **必须** 上传文件
          1. （高级用法）推荐使用RouteObfuscator混淆线路以缩减大小并尽量阻止侵权行为
          2. 勾选 AutoOpen
-       - 线路文件在外链网盘(即不需中途进入网盘网站，点击链接即可直接下载到文件)：
+       - 线路文件在外链网盘(即不需中途进入网盘网站，点击链接即可直接下载到文件)：  
          **不需** 上传文件
-         1. 链接 File_H2，填入zip文件链接
+         1. 链接 File_H2，填入zip文件链接  
             如 `https://nicedisk-12345678.cos.ap-chengdu.myqcloud.com/Saijo-sen.zip`
          2. 设定 FileSize_H2，填入文件大小，如"15.3MB"
          3. 勾选 AutoOpen
-       - 线路文件在非外链网盘(必须进入网盘网站，在该处按一个下载按钮才可下载到文件)：
+       - 线路文件在非外链网盘(必须进入网盘网站，在该处按一个下载按钮才可下载到文件)：  
          **不需** 上传文件
-         1. 链接 File_H2，填入网盘页面链接
+         1. 链接 File_H2，填入网盘页面链接  
             如 `https://ux.getuploader.com/hi03_RTM_NP/download/13`
          2. 设定 FileSize_H2，填入文件大小，如"15.3MB"
          3. 勾选 GuidedDownload
          4. 在书写描述文字时，要添加协助玩家从网盘下载文件的操作说明（因为许多网盘有着英文或日文界面，很可能难以找到下载按钮）
-     - 作者只提供了OpenBVE或BVE4版线路下载链接：
+     - 作者只提供了OpenBVE或BVE4版线路下载链接：  
        **必须** 上传文件
        1. 使用Hmmsim转换程序将线路转换为Hmmsim版
        2. （高级用法）推荐使用RouteObfuscator混淆线路以缩减大小并尽量阻止侵权行为
-   - 未获作者许可：
-     **注意！如果原作者未提供Hmmsim版线路，您不能按下面执行——必须获得许可才可转换线路。**
-     **严禁** 上传文件
+   - 未获作者许可：  
+     **注意！如果原作者未提供Hmmsim版线路，您不能按下面执行——必须获得许可才可转换线路。**  
+     **严禁** 上传文件  
      根据作者所使用的网盘, 选择一项：
-     - 线路文件可直接在浏览器中下载(如Uploader.jp等网盘)：
+     - 线路文件可直接在浏览器中下载(如Uploader.jp等网盘)：  
        **可以** 自动安装
-       1. 链接 File_H2，填入路线发布页链接
+       1. 链接 File_H2，填入路线发布页链接  
           如 `http://tozai.s77.xrea.com/BVE/ETozai.html`
        2. 设定 FileSize_H2，填入文件大小，如"15.3MB"
        3. 勾选 GuidedDownload 
        4. 在书写描述文字时，要添加协助玩家从发布页进入网盘页面，并从网盘下载文件的操作说明（因为许多网盘有着英文或日文界面，很可能难以找到下载按钮）
-     - 线路文件不可在浏览器中下载(如百度云网盘等必须安装客户端)：
+     - 线路文件不可在浏览器中下载(如百度云网盘等必须安装客户端)：  
        **无法** 自动安装
        1. 勾选 NoFile
        2. 在书写描述文字时，要添加提供协助玩家全手动下载与安装路线的说明。
 
-3. **书写描述文字。请将Description一栏留空。**虽然描述文字并非必须，但写一段描述文字可以让玩家更快了解您的线路。和上面一样，照样是txt和html都可以使用，放在ini旁边即可。
-   **文件名应与ini的文件名相同**，如`MTR Modified Initial System_1.0.ini` -> `MTR Modified Initial System_1.0.txt`。不过考虑到一些线路版本间描述信息无大变化，因此名称既可加也可不加版本号，如 `MTR Modified Initial System_1.0.txt` 与 `MTR Modified Initial System.txt` 均有效。
-   如同时存在，将优先选择有着对应版本号的描述文件。
+3. **书写描述文字。请将Description一栏留空。**虽然描述文字并非必须，但写一段描述文字可以让玩家更快了解您的线路。和上面一样，照样是txt和html都可以使用，放在ini旁边即可。  
+   **文件名应与ini的文件名相同**，如`MTR Modified Initial System_1.0.ini` -> `MTR Modified Initial System_1.0.txt`。不过考虑到一些线路版本间描述信息无大变化，因此名称既可加也可不加版本号，如 `MTR Modified Initial System_1.0.txt` 与 `MTR Modified Initial System.txt` 均有效。  
+   如同时存在，将优先选择有着对应版本号的描述文件。  
    （高级用法）**也可使用外部网站上内容作描述文字。**此时在Description框内直接填入其网址即可。
 
-4. （可选）**设置路线预览图片。**索引程序接受 png 与 jpg 格式图片，同样是版本号加不加均可。如 `MTR Modified Initial System.png `，同样放置在ini旁边即自动识别。图片也可省略，如省略会使用倒也不难看的默认图片。
+4. （可选）**设置路线预览图片。**索引程序接受 png 与 jpg 格式图片，同样是版本号加不加均可。如 `MTR Modified Initial System.png `，同样放置在ini旁边即自动识别。图片也可省略，如省略会使用倒也不难看的默认图片。  
    （高级用法）**如您使用外部图床**，您可在底部Thumbnail一栏填入图片直链地址，如 `https://openbve-project.net/images/logo.png` 来人工指定预览图片，同时不要在目录下放置图片既可。
 
    重要的事情说两遍：描述文件和预览图片要与 ini 文件放置在**同一目录下**，也就是放在它旁边。 
@@ -214,6 +214,5 @@ MTR Modified Initial System_1.0_h2.zip
 请根据您线路的条件选择相应教程：
 
 * [上传到TeraCloud或其它外链网盘](clouddisk.html)
-
 * [上传到公用源服务器](publicsrc.html)
 * 上传到Pages或其它Git服务
