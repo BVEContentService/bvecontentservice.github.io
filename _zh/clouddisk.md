@@ -77,7 +77,7 @@ title: 上传到网盘
 
    
 
-   ![WinSCP Example](/assets/winscp_example.png)
+   ![WinSCP Example](/assets/images/winscp_example.png)
 
 ### 提交服务器
 
