@@ -2,9 +2,9 @@
 
   <div class="wrapper">
     {% if page.url contains '/zh/' %}
-    <a class="site-title" rel="author" href="{{ "/zh/index.html" | relative_url }}">{{ site.title_zh | escape }}</a>
+    <a class="site-title" rel="author" href="{{ "/zh/" | relative_url }}">{{ site.title_zh | escape }}</a>
     {% else %}
-    <a class="site-title" rel="author" href="{{ "/index.html" | relative_url }}">{{ site.title | escape }}</a>
+    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
     {% endif %}
       <nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />

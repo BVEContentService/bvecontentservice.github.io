@@ -1,6 +1,7 @@
 ---
 title: 主页
 layout: home
+permalink: /zh/
 ---
 
 BVE内容服务系统是由 [@zbx1425](https://github.com/zbx1425) 开发的协议、软件，及由社区合作建设的服务器网络之总称，致力于为现今网络上的BVE Trainsim相关资源提供集中的索引和托管、以及更便利的一键安装等。
