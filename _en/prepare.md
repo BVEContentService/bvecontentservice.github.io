@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Prepare Files"
-navbar: "Upload"
+title: 准备文件
+navbar: "上传教程"
 ---
 
 由于内容服务不仅要提供文件，还要提供相关信息、预览图等，所以您需要撰写一些内容与配置文件，并使您的线路档案符合我们所需的格式。
@@ -195,9 +195,61 @@ author.ini必须放置在根目录处，但索引程序对您线路的要求就�
 MTR Modified Initial System_1.0_h2.zip
 ```
 
-### 大功告成
+### 避坑指南
 
-此时您已经准备好相应的资料，可以将您的路线档上传到内容服务平台了。有些复杂，辛苦您了！
+此处列出几种常见错误，请您注意检查，以免无法正常运作：
+
+1. 文件名不匹配  
+   上述多个线路相关文件的命名方式都牵扯到ID、模拟程序、版本号等。简单地说，ini文件名称中必含ID、必含版本号、不含模拟程序类型；jpg、txt、html等含ID，可含也可不含版本号、不含模拟程序类型；zip文件则三个都要含有。
+
+   ```
+   XiJing Metro Line 3_1.0.ini
+   WTFSC-XiJing Metro Line 3_1.0.jpg
+   XiJing Metro Line 3 Beta ver 1.0.zip
+   ```
+
+   ↑ 这样命名可不行！必须得严格按照格式，前后不能多也不能少。
+
+   ```
+   XiJing Metro Line 3_1.0.ini
+   XiJing Metro Line 3.jpg
+   XiJing Metro Line 3_1.0 .zip
+   ```
+
+   ↑ 仔细看看，某处是不是多了个空格？空格也会影响索引程序的判断。
+
+2. 文件夹目录结构  
+   首先，author.ini必须直接就在这个以Email为名的文件夹之中的。不要在外面也不要在子文件夹里。
+   其次，请记住BCS索引程序是以ini文件为中心的，也就是说其他文件只要在ini的正旁边就能被找到。
+
+   ```
+   1234567890.qq.com
+   ├─CSSSC-Guangzhou Metro Line 1
+   │      author.ini
+   │      CSSSC-Guangzhou Metro Line 1_1.1.ini
+   │      CSSSC-Guangzhou Metro Line 1_1.1_h2.zip
+   ```
+
+   ↑ author.ini的位置不对。
+
+   ```
+   1234567890.qq.com
+   │ author.ini
+   │ CSSSC-Guangzhou Metro Line 1_1.1.ini
+   ├─CSSSC-Guangzhou Metro Line 1
+   │      CSSSC-Guangzhou Metro Line 1_1.1_h2.zip
+   ```
+
+   ↑ zip没有和ini在一起，因此索引程序找不到线路包文件。
+
+   ```
+   1234567890.qq.com
+   │ author.ini
+   │ CSSSC-Guangzhou Metro Line 1_1.1.ini
+   │ CSSSC-Guangzhou Metro Line 1_1.1_h2.zip
+   ```
+
+   ↑ 只要ini和zip在一起，到底在哪个目录里，还是直接在根目录中其实无所谓。
 
 ### 接下来呢?
 

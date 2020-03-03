@@ -97,37 +97,35 @@ author.ini必须放置在根目录处，但索引程序对您线路的要求就�
       - 线路文件在外链网盘(即不需中途进入网盘网站，点击链接即可直接下载到文件)：  
         **不需** 上传文件
 
-        1. 链接 File_H2，填入zip文件链接  
-           如 `https://nicedisk-12345678.cos.ap-chengdu.myqcloud.com/Saijo-sen.zip`
+        1. 链接 File_H2，填入zip文件链接
         2. 设定 FileSize_H2，填入文件大小，如"15.3MB"
         3. 勾选 AutoOpen
-
-      - 线路文件在非外链网盘(必须进入网盘网站，在该处按一个下载按钮才可下载到文件)：  
+        
+- 线路文件在非外链网盘(必须进入网盘网站，在该处按一个下载按钮才可下载到文件)：  
         **不需** 上传文件
-
-        1. 链接 File_H2，填入网盘页面链接  
-           如 `https://ux.getuploader.com/hi03_RTM_NP/download/13`
+      
+  1. 链接 File_H2，填入网盘页面链接
         2. 设定 FileSize_H2，填入文件大小，如"15.3MB"
         3. 勾选 GuidedDownload
         4. 在书写描述文字时，要添加协助玩家从网盘下载文件的操作说明（因为有些网盘有着英文或日文界面，很可能难以找到下载按钮）
-
+   
    #### 如您要上传的是转载线路：
 
    1. **正确填入线路信息和转载原作者信息**  
-      **必须填写。**将鼠标放到文本框上会弹出填写提示。选中文本框可以让填写提示不消失。
-
+   **必须填写。**将鼠标放到文本框上会弹出填写提示。选中文本框可以让填写提示不消失。
+   
    2. **在Homepage填入作者发布路线的页面**  
-      例如  `http://www.csssc.com.cn/lgz1.html`  
+   例如  `http://www.csssc.com.cn/lgz1.html`  
       **必须填写。**管理团队将随时删除没有正确填写Homepage的线路，恕不通知。
-
+   
    3. **先仔细润色一下描述文字**  
-      线路描述可以吸引玩家下载您的线路。  
+   线路描述可以吸引玩家下载您的线路。  
       并且请您一定要使用各种溢美之词表示对线路质量的赞美和对原作者的感谢。
-
+   
    4. 根据是否获得了转载授权，选择一项：
 
    - 已获作者许可转换与转载：  
-     **可以** 自动安装
+  **可以** 自动安装
      - 作者在官网提供了Hmmsim版线路下载链接：  
        根据作者所使用的网盘, 选择一项：
        - 线路文件不可在浏览器中下载(如百度云网盘等必须安装客户端)：  
@@ -137,14 +135,12 @@ author.ini必须放置在根目录处，但索引程序对您线路的要求就�
          2. 勾选 AutoOpen
        - 线路文件在外链网盘(即不需中途进入网盘网站，点击链接即可直接下载到文件)：  
          **不需** 上传文件
-         1. 链接 File_H2，填入zip文件链接  
-            如 `https://nicedisk-12345678.cos.ap-chengdu.myqcloud.com/Saijo-sen.zip`
+         1. 链接 File_H2，填入zip文件链接
          2. 设定 FileSize_H2，填入文件大小，如"15.3MB"
          3. 勾选 AutoOpen
        - 线路文件在非外链网盘(必须进入网盘网站，在该处按一个下载按钮才可下载到文件)：  
          **不需** 上传文件
-         1. 链接 File_H2，填入网盘页面链接  
-            如 `https://ux.getuploader.com/hi03_RTM_NP/download/13`
+         1. 链接 File_H2，填入网盘页面链接
          2. 设定 FileSize_H2，填入文件大小，如"15.3MB"
          3. 勾选 GuidedDownload
          4. 在书写描述文字时，要添加协助玩家从网盘下载文件的操作说明（因为许多网盘有着英文或日文界面，很可能难以找到下载按钮）
@@ -159,7 +155,6 @@ author.ini必须放置在根目录处，但索引程序对您线路的要求就�
      - 线路文件可直接在浏览器中下载(如Uploader.jp等网盘)：  
        **可以** 自动安装
        1. 链接 File_H2，填入路线发布页链接  
-          如 `http://tozai.s77.xrea.com/BVE/ETozai.html`
        2. 设定 FileSize_H2，填入文件大小，如"15.3MB"
        3. 勾选 GuidedDownload 
        4. 在书写描述文字时，要添加协助玩家从发布页进入网盘页面，并从网盘下载文件的操作说明（因为许多网盘有着英文或日文界面，很可能难以找到下载按钮）
@@ -167,7 +162,7 @@ author.ini必须放置在根目录处，但索引程序对您线路的要求就�
        **无法** 自动安装
        1. 勾选 NoFile
        2. 在书写描述文字时，要添加提供协助玩家全手动下载与安装路线的说明。
-
+   
 3. **书写描述文字。请将Description一栏留空。**虽然描述文字并非必须，但写一段描述文字可以让玩家更快了解您的线路。和上面一样，照样是txt和html都可以使用，放在ini旁边即可。  
    **文件名应与ini的文件名相同**，如`MTR Modified Initial System_1.0.ini` -> `MTR Modified Initial System_1.0.txt`。不过考虑到一些线路版本间描述信息无大变化，因此名称既可加也可不加版本号，如 `MTR Modified Initial System_1.0.txt` 与 `MTR Modified Initial System.txt` 均有效。  
    如同时存在，将优先选择有着对应版本号的描述文件。  
@@ -180,7 +175,7 @@ author.ini必须放置在根目录处，但索引程序对您线路的要求就�
 
 ### 准备上传文件
 
-若您的线路符合上述“必须上传文件”的情况，请准备好您的zip格式线路档，并改为适当名称以便索引程序搜索。如您不需上传文件，直接到下一步即可。
+若您的线路符合上述“必须上传文件”的情况，请准备好您的zip格式线路档，并改为适当名称以便索引程序搜索。如您不需上传文件，就不需添加zip文件，直接到下一步即可。
 
 复制过来您所有的zip格式线路档，并将其命名为：
 
@@ -195,9 +190,61 @@ author.ini必须放置在根目录处，但索引程序对您线路的要求就�
 MTR Modified Initial System_1.0_h2.zip
 ```
 
-### 大功告成
+### 避坑指南
 
-此时您已经准备好相应的资料，可以将您的路线档上传到内容服务平台了。有些复杂，辛苦您了！
+此处列出几种常见错误，请您注意检查，以免无法正常运作：
+
+1. 文件名不匹配  
+   上述多个线路相关文件的命名方式都牵扯到ID、模拟程序、版本号等。简单地说，ini文件名称中必含ID、必含版本号、不含模拟程序类型；jpg、txt、html等含ID，可含也可不含版本号、不含模拟程序类型；zip文件则三个都要含有。
+
+   ```
+   XiJing Metro Line 3_1.0.ini
+   WTFSC-XiJing Metro Line 3_1.0.jpg
+   XiJing Metro Line 3 Beta ver 1.0.zip
+   ```
+
+   ↑ 这样命名可不行！必须得严格按照格式，前后不能多也不能少。
+
+   ```
+   XiJing Metro Line 3_1.0.ini
+   XiJing Metro Line 3.jpg
+   XiJing Metro Line 3_1.0 .zip
+   ```
+
+   ↑ 仔细看看，某处是不是多了个空格？空格也会影响索引程序的判断。
+
+2. 文件夹目录结构  
+   首先，author.ini必须直接就在这个以Email为名的文件夹之中的。不要在外面也不要在子文件夹里。
+   其次，请记住BCS索引程序是以ini文件为中心的，也就是说其他文件只要在ini的正旁边就能被找到。
+
+   ```
+   1234567890.qq.com
+   ├─CSSSC-Guangzhou Metro Line 1
+   │      author.ini
+   │      CSSSC-Guangzhou Metro Line 1_1.1.ini
+   │      CSSSC-Guangzhou Metro Line 1_1.1_h2.zip
+   ```
+
+   ↑ author.ini的位置不对。
+
+   ```
+   1234567890.qq.com
+   │ author.ini
+   │ CSSSC-Guangzhou Metro Line 1_1.1.ini
+   ├─CSSSC-Guangzhou Metro Line 1
+   │      CSSSC-Guangzhou Metro Line 1_1.1_h2.zip
+   ```
+
+   ↑ zip没有和ini在一起，因此索引程序找不到线路包文件。
+
+   ```
+   1234567890.qq.com
+   │ author.ini
+   │ CSSSC-Guangzhou Metro Line 1_1.1.ini
+   │ CSSSC-Guangzhou Metro Line 1_1.1_h2.zip
+   ```
+
+   ↑ 只要ini和zip在一起，到底在哪个目录里，还是直接在根目录中其实无所谓。
 
 ### 接下来呢?
 
