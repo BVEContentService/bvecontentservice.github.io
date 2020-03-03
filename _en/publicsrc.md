@@ -1,42 +1,42 @@
 ---
 layout: page
-title: 上传到公用源服务器
+title: Upload to Public Source Server
 ---
 
-如果您的文件超出第三方托管服务尺寸限制（不幸的是，好像大部分线路都是这样……），我们提供能够处理大文件的公用源服务器。
+Public Source Servers can handle big files, and downloads at a decent speed in China.
 
-### 选择源服务器
+### Choose a Source Server
 
-目前可用的公用源服务器有：
+The Public Source Servers available so far are:
 
-* [天津公用源服务器](https://api.zbx1425.tk:8953/bcs-src) - 由 [zbx1425](https://zbx1425.tk) 搭建
+* [Tianjin Public Source Server](https://api.zbx1425.tk:8953/bcs-src) - Contributed at own expense by [zbx1425](https://zbx1425.tk)
 
-### 注册账号并登录
+### Register and Log in
 
-按"注册"按钮，填入相应信息。源服务器通常会要求您提供Email。
+Press "Sign up", and fill in your information. You email will be requested.
 
-接下来登入您的账号。
+After confirming your email, sign in.
 
-### 上传文件
+### Upload Files
 
-将您那个以Email为名称的文件夹的内容上传到源服务器。`author.ini`应该在根目录下。
+Upload the contents of that folder named after your email. `author.ini` should be at the root directory.
 
-可同时上传最多8个文件，但无法一次性上传整个文件夹，创建文件夹请使用[新建]->[文件夹]。
+Up to eight files can be uploaded simultaneously, but uploading folder is not possible. Please create folders manually using [New] -> [Folder].
 
-### 避坑指南
+### Avoid Common Mistakes
 
-**`author.ini`应该在根目录下。**也就是说，那个以Email为名的文件夹不应该出现在云端，而是将其**内容**上传上去。也就是说那个文件夹的名称在公用源这里是压根用不到的。
+**`author.ini` should be at the root directory.** Which means the folder named after your email should not appear at cloud, its contents get uploaded instead.
 
-### 刷新数据
+### Refresh data
 
-公用源有着自动刷新功能，每5分钟一次，您可耐心等待。
+The Public Source Server refreshes the metadata every 5 minutes.
 
-如果您性子比较急，您可以先到 [此页面点击按钮](https://api.zbx1425.tk:8953/bcs-src/metadata.php)， 再打开 [此页面(无任何内容)](https://api.zbx1425.tk:8953/bcs-index/responsemerger.php)，以手动刷新。
+If you are so eager to see the result, please [click a button there](https://api.zbx1425.tk:8953/bcs-src/metadata.php), then [open this (a blank page)](https://api.zbx1425.tk:8953/bcs-index/responsemerger.php) to refresh the metadata and flush the cache.
 
-回到软件主页，按"刷新"按钮。如果您的配置文件书写无误，您的路线应当出现在列表中。
+Go to the main page of the app, and choose "refresh" from the menu. If you configured everything correctly, your route should show up in the list.
 
-### 另见
+### See also
 
-网站的评论功能有些细节需要向您说明。见[此处](rssnotif.html)
+The commenting feature of this website is worth noticing. Please [check this out.](rssnotif.html)
 
-注：您可能会发现您的文件夹中出现类似 `***.thumb.jpg` 的文件。这些文件由系统自动维护，请将这些文件留在原处，不需编辑、删除和移动。如您要移除线路，将其与其它路线相关文件一同移除即可。
+Note: You may find files like  `***.thumb.jpg`  in your folder. They are automatically generated, and automatically maintanced. Please leave them as-is. If you need to remove a route, just delete them alongside with other files that belongs to the associated route.

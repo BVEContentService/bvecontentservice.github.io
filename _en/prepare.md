@@ -10,7 +10,7 @@ Feel free to contact [zbx1425@outlook.com](mailto:zbx1425@outlook.com) if you ha
 
 ### Foreword
 
-Some word off-course comes first. **Please do not overestimate the intelligence of a computer! **Computers are pretty dumb, so please follow this tutorial precisely, or something might not be working.
+Some word off-course comes first. **Please do not overestimate the intelligence of a computer!** Computers are pretty dumb, so please follow this tutorial precisely, or something might not be working.
 
 Although this article is pretty long, but the basic usage of BCS is not that complex as it seems. Only a part of the function described are necessery for uploading a route. Some advanced usages are also covered, which you can ignore if not required.
 
