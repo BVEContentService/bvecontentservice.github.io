@@ -23,8 +23,11 @@ github_username: zbx1425
 
 # Build settings
 theme: minima
-plugins:
-  - jekyll-feed
+
+collections:
+  zh:
+    output: true
+    permalink: /:collection/:title/
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
