@@ -23,7 +23,7 @@ If any problem is encountered, feel free to contact developer at [zbx1425@outloo
 没有资源的平台毫无意义。我们欢迎各位开发者将自行开发或获授权转载的资源上传到我们的平台！  
 如您对此有所兴趣，欢迎您参阅文档！
 
-[![线路上传教程](btn_tutorial_upload.png)](prepare.html)
+[![线路上传教程](/assets/btn_tutorial_upload.png)](prepare.html)
 
 
 

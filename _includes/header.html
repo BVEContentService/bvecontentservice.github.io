@@ -22,7 +22,7 @@
                 {% assign enurl=page.url | replace:'/zh/','/' %}
                 <a class="page-link" style="padding: 5px; border:2px dashed #CCCCCC; border-radius:5px" href="{{ enurl }}">English</a>
             {% else %}
-                {% for my_page in site.pages %}
+                {% for my_page in site.en %}
                     {% if my_page.navbar %}
                     <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.navbar | escape }}</a>
                     {% endif %}

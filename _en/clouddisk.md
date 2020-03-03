@@ -22,7 +22,7 @@ title: 上传到网盘
    ```
    │  metadata.php
    │  metadata.bat
-   | 
+   │ 
    └─zbx1425.outlook.com
        │  author.ini
        │
@@ -77,7 +77,7 @@ title: 上传到网盘
 
    
 
-   ![WinSCP Example](winscp_example.png)
+   ![WinSCP Example](/assets/winscp_example.png)
 
 ### 提交服务器
 

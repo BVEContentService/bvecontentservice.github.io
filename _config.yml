@@ -28,6 +28,9 @@ collections:
   zh:
     output: true
     permalink: /:collection/:title:output_ext
+  en:
+    output: true
+    permalink: /:title:output_ext
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
