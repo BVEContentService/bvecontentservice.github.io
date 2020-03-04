@@ -25,6 +25,9 @@ github_username: zbx1425
 # Build settings
 theme: minima
 
+plugins:
+  - jekyll-seo-tag
+
 collections:
   zh:
     output: true
