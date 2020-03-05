@@ -16,8 +16,10 @@
 title: BVE Content Service
 title_zh: BVE内容服务系统
 email: zbx1425@outlook.com
-description: >- # this means to ignore newlines until "baseurl:"
+description_zh: >- # this means to ignore newlines until "baseurl:"
  BVE内容服务系统是由 @zbx1425 开发的协议、软件，及由社区合作建设的服务器网络之总称，致力于为现今网络上的BVE Trainsim相关资源提供集中的索引和托管、以及更便利的一键安装等。
+description: >- # this means to ignore newlines until "baseurl:"
+ BVE Content Service System consists of the protocol and a series of softwares developed by @zbx1425, along with storage servers contributed by our community. We are working on indexing and hosting the BVE Trainsim route resources on the internet, and providing easier one-click installation for players.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://bvecontentservice.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: zbx1425

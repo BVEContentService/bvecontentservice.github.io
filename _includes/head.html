@@ -14,7 +14,7 @@
         } 
         catch (e) {}
     }
-    if (!referrer) {
+    if (!referrer || !referrer.toLowerCase().includes("bvecontentservice")) {
         var language = navigator.languages
             ? navigator.languages[0]
             : (navigator.language || navigator.userLanguage)
