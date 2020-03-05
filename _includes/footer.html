@@ -4,7 +4,7 @@
   <div class="wrapper">
 
     <div class="footer-col-wrapper">
-      <div class="footer-col">
+      <div class="footer-col" style="display:table-cell">
         <!--<p class="feed-subscribe">
           <a href="{{ 'feed.xml' | relative_url }}">
             <svg class="svg-icon orange">
@@ -22,18 +22,17 @@
           {%- endif %}
         </ul>
       {%- endif %}
+        <div class="social-links">
+           {%- include social.html -%}
+        </div>
       </div>
-      <div class="footer-col">
+      <div class="footer-col" style="display:table-cell">
         {% if page.url contains '/zh/' -%}
         <p>{{ site.description_zh | escape }}</p>
         {%- else -%}
         <p>{{ site.description | escape }}</p>
         {%- endif %}
       </div>
-    </div>
-
-    <div class="social-links">
-      {%- include social.html -%}
     </div>
 
   </div>
