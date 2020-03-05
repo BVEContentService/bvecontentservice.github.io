@@ -4,7 +4,7 @@
   <div class="wrapper">
 
     <div class="footer-col-wrapper">
-      <div class="footer-col" style="display:table-cell">
+      <div class="footer-col" style="display:table-cell; float:none">
         <!--<p class="feed-subscribe">
           <a href="{{ 'feed.xml' | relative_url }}">
             <svg class="svg-icon orange">
@@ -26,7 +26,7 @@
            {%- include social.html -%}
         </div>
       </div>
-      <div class="footer-col" style="display:table-cell">
+      <div class="footer-col" style="display:table-cell; float:none">
         {% if page.url contains '/zh/' -%}
         <p>{{ site.description_zh | escape }}</p>
         {%- else -%}
