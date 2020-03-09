@@ -10,6 +10,8 @@ BVE内容服务系统是由 [@zbx1425](https://github.com/zbx1425) 开发的协�
 
 ## 下载程序
 
+![最新版本](https://api.zbx1425.tk:8953/build/bcs-apk/badge.php?title=最新版本)    
+
 [![Android下载程序](/assets/images/btn_download_android.png)](https://api.zbx1425.tk:8953/build/bcs-apk)
 [![Android源代码](/assets/images/btn_source_android.png)](https://github.com/BVEContentService/BCSClientAndroid)
 

@@ -10,7 +10,7 @@ Feel free to contact [zbx1425@outlook.com](mailto:zbx1425@outlook.com) if you ha
 
 ### Foreword
 
-Some word off-course comes first. **Please do not overestimate the intelligence of a computer!** Computers are pretty dumb, so please follow this tutorial precisely, or something might not be working.
+Some word off-course comes first. **Please do not overestimate the intelligence of a computer!** Computers are pretty dumb, so please follow this tutorial precisely, or something might not be working.
 
 Although this article is pretty long, but the basic usage of BCS is not that complex as it seems. Only a part of the function described are necessery for uploading a route. Some advanced usages are also covered, which you can ignore if not required.
 
@@ -103,7 +103,7 @@ author.ini must be placed inside the root directory, but the route information m
         2. Set FileSize_H2 to the size of the file, such as "15.3MB".
         
       - The web drive has a web page, in which you click a button to start your download:  
-     Uploading file is **NOT NECESSERY** 
+       Uploading file is **NOT NECESSERY** 
       
         1. Fill in the url of the web page into File_H2. 
      2. Set FileSize_H2 to the size of the file, such as "15.3MB".
@@ -156,7 +156,7 @@ author.ini must be placed inside the root directory, but the route information m
      - The web drive allows downloading via browser (Direct link or web page):  
        Automatic Installation is **POSSIBLE** 
 
-       1. Fill in the url of the web page **on which the author releases the route** (i.e. The Homepage. Do Not just put the download page there, but the page with some words by the author. This is to give credit.) into File_H2. 
+       1. Fill in the url of the web page **on which the author releases the route** (i.e. The Homepage. Do Not just put the download page there, but the page with some words by the author. This is to give credit.) into File_H2. 
 
        2. Set FileSize_H2 to the size of the file, such as "15.3MB".
 
@@ -178,7 +178,7 @@ author.ini must be placed inside the root directory, but the route information m
 4. (Optional) **Set a thumbnail.** Both jpg and png are accepted **(Extension should be in lowercase)**, and omitting version number is supported, such as `MTR Modified Initial System.png `. Just place it right besides the ini file. If it is not set, a default picture will be used.  
    (Advanced) **If external image storage is used**, You can set the Thumbnail field to the url of your file, such as  `https://openbve-project.net/images/logo.png` , while not putting any picture inside the directory.
 
-   Important: The description file and thumbnail image must be in the **same directory** as the ini file, RIGHT besides it.
+   Important: The description file and thumbnail image must be in the **same directory** as the ini file, RIGHT besides it.
 
 ### Prepare to Upload the Files
 
@@ -190,7 +190,7 @@ Copy all your zip files and place them beside the associated ini file. The filen
 [ID]_[Version]_[Program].zip
 ```
 
-For "Program", `h2` is for Hmmsim2, `ob` is for openBVE, and `b5` is for BVE5. (ob and b5 are unfortunately currently not supported.) The letters should be lowercase. You can refer to the sample directory tree structure described at the start of this document. An example is:
+For "Program", `h2` is for Hmmsim2, `ob` is for openBVE, and `b5` is for BVE5. (ob and b5 are unfortunately currently not supported.) The letters should be lowercase. You can refer to the sample directory tree structure described at the start of this document. An example is:
 
 ```
 MTR Modified Initial System_1.0_h2.zip
@@ -221,35 +221,38 @@ These are some frequent mistakes. Please do a check in case you made one:
 
 2. Folder structure  
    First of all, author.ini must be directly inside the folder named after your email, not outside and not inside a subfolder. Also, the BCS index program searches around the ini file, so just put your files beside it and they will get found.
-   
 ```
    1234567890.qq.com
    ├─CSSSC-Guangzhou Metro Line 1
    │      author.ini
    │      CSSSC-Guangzhou Metro Line 1_1.1.ini
    │      CSSSC-Guangzhou Metro Line 1_1.1_h2.zip
-   ```
-   
+```
+
 ↑ author.ini is not in correct position.
-   
+
 ```
    1234567890.qq.com
    │ author.ini
    │ CSSSC-Guangzhou Metro Line 1_1.1.ini
    ├─CSSSC-Guangzhou Metro Line 1
    │      CSSSC-Guangzhou Metro Line 1_1.1_h2.zip
-   ```
-   
+```
+
 ↑ zip is not along with ini, so it cannot be found.
-   
+
 ```
    1234567890.qq.com
    │ author.ini
    │ CSSSC-Guangzhou Metro Line 1_1.1.ini
    │ CSSSC-Guangzhou Metro Line 1_1.1_h2.zip
-   ```
-   
+```
+
 ↑ As long as ini and zip are together, the directory they are in does not matter. They can be directly in, or in any subfolder of the folder named after your email.
+
+3. Program Suffix
+
+   Do not forget to add program suffix to your zip file. It is quite easy to forget it, though.
 
 ### What's next?
 

@@ -33,7 +33,9 @@ It is worth noting that TeraCloud is not a shared storage service. Therefore pas
                MTR Modified Initial System_1.0_h2.zip
    ```
 
+   This metadata generator might update. So please check for update regularly, in order to make use of newest features. The current latest version is:
    
+   ![Latest Generator](https://img.shields.io/github/v/release/BVEContentService/MetadataGenerator?label=LatestGenerator&logo=github&style=for-the-badge)
 
 ### Generate Metadata
 
@@ -56,7 +58,7 @@ It is worth noting that TeraCloud is not a shared storage service. Therefore pas
    * Host name: teracloud.zbx1425.tk
    * Port number: 8953
    
-2. Upload `index` and that folder named after your email to remote server. It should be kind of like this:
+2. Upload `index` and that folder named after your email to remote server. It should be kind of like this:
 
    ```
    Remote root directory
@@ -83,7 +85,7 @@ It is worth noting that TeraCloud is not a shared storage service. Therefore pas
 
 Your cloud drive must be submitted to our index before it can appear in the app.
 
-1. Refer to [submit page](https://bvecontentservice.gitee.io/bcs-index/submission/) and fill in the information. The fields already filled in is the configurations for TeraCloud, and do not need to be changed if you are using this service.
+1. Refer to [submit page](https://bvecontentservice.gitee.io/bcs-index/submission/) and fill in the information. The fields already filled in is the configurations for TeraCloud, and do not need to be changed if you are using this service.
 2. We will check if your web drive is set up correctly. Please wait for our reply.
 
 ### See also

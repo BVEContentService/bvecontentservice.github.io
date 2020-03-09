@@ -33,6 +33,9 @@ title: 上传到网盘
                MTR Modified Initial System_1.0_h2.zip
    ```
 
+   该生成器可能会经常更新。所以请您经常关注生成器的最新版本，以适应新版协议。最新版本为：
+     
+   ![最新生成器版本](https://img.shields.io/github/v/release/BVEContentService/MetadataGenerator?label=最新生成器版本&logo=github&style=for-the-badge)
    
 
 ### 生成数据
