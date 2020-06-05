@@ -10,12 +10,14 @@ This program enables you to search and install routes in a easier way.
 
 ## Download
 
-![最新版本](https://api.zbx1425.tk:8953/build/bcs-apk/badge.php?title=LatestVersion)    
+![Latest Version](https://api.zbx1425.tk:8953/build/bcs-apk/badge.php?title=LatestVersion)    
 
+Click this huge button to download this app.  
 [![Android Download](/assets/images/btn_download_android.png)](https://api.zbx1425.tk:8953/build/bcs-apk)
-[![Android Source Code](/assets/images/btn_source_android.png)](https://github.com/BVEContentService/BCSClientAndroid)
 
 If any problem is encountered, feel free to contact developer at [zbx1425@outlook.com](mailto:zbx1425@outlook.com)!
+
+[Get Source Code](https://github.com/BVEContentService/BCSClientAndroid)
 
 By redistributing or modifying any of these programs, you automatically accept all the statements described in GNU General Public License (GPLv3). If you are against this license agreement, we recommend uninstalling this software. You can get a copy of this license [THERE](gplv3.html) .
 
