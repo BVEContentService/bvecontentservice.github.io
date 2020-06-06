@@ -39,7 +39,7 @@
           return decodeURIComponent(results[2].replace(/\+/g, ' '));
       }
       $(function() {
-        if (location.href.split("/").slice(-1)[0] == "install.html"){
+        if (location.href.split("/").slice(-1)[0].split("?")[0] == "install.html"){
           var iframe = document.createElement('iframe');
           iframe.src = "bvecontentservice://androidcall/install.html?id=" + getParameterByName("id");
           iframe.style = "display:none";
