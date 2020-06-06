@@ -24,28 +24,28 @@
                 location.origin = location.protocol + "//" + location.hostname 
                     + (location.port ? ':' + location.port: '');
             }
-            location.href = location.origin + "/zh" + location.pathname + location.search;
+            location.href = location.href.replace(location.pathname, "/zh" + location.pathname);
         }
     }
-    </script>
-    <script type="text/javascript">
-      function getParameterByName(name, url) {
-          if (!url) url = window.location.href;
-          name = name.replace(/[\[\]]/g, '\\$&');
-          var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
-              results = regex.exec(url);
-          if (!results) return null;
-          if (!results[2]) return '';
-          return decodeURIComponent(results[2].replace(/\+/g, ' '));
+  </script>
+  <script type="text/javascript">
+    function getParameterByName(name, url) {
+        if (!url) url = window.location.href;
+        name = name.replace(/[\[\]]/g, '\\$&');
+        var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+            results = regex.exec(url);
+        if (!results) return null;
+        if (!results[2]) return '';
+        return decodeURIComponent(results[2].replace(/\+/g, ' '));
+    }
+    $(function() {
+      if (location.href.split("/").slice(-1)[0].split("?")[0] == "install.html"){
+        var iframe = document.createElement('iframe');
+        iframe.src = "bvecontentservice://androidcall/install.html?id=" + getParameterByName("id");
+        iframe.style = "display:none";
+        document.body.appendChild(iframe);
       }
-      $(function() {
-        if (location.href.split("/").slice(-1)[0].split("?")[0] == "install.html"){
-          var iframe = document.createElement('iframe');
-          iframe.src = "bvecontentservice://androidcall/install.html?id=" + getParameterByName("id");
-          iframe.style = "display:none";
-          document.body.appendChild(iframe);
-        }
-      });
-    </script>
-    {% seo %}
+    });
+  </script>
+  {% seo %}
 </head>
