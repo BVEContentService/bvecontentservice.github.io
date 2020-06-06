@@ -24,7 +24,7 @@
                 location.origin = location.protocol + "//" + location.hostname 
                     + (location.port ? ':' + location.port: '');
             }
-            location.href = location.origin + "/zh" + location.pathname;
+            location.href = location.origin + "/zh" + location.pathname + location.search;
         }
     }
     </script>
