@@ -6,7 +6,7 @@ layout: page
 ## 下载程序
 "Hmmsim线路库" 是您要下载的这条线路的官方发布渠道。  
 请按以下大按钮下载此app！  
-然后，您就可以在其中下载本线路了。
+然后，您就可以在其中下载本线路了。  
 [![Android Download](/assets/images/btn_download_android.png)](https://api.zbx1425.tk:8953/build/bcs-apk)
 
 ## 这是什么?
