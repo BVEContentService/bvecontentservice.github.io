@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "tk.zbx1425.bvecontentservice",
+    "sha256_cert_fingerprints":
+    ["A3:8F:B9:0B:FD:15:74:6D:E0:EB:CF:51:0B:FE:65:23:A4:9B:F1:F5:9E:81:06:A9:2E:4B:87:9B:88:FE:B1:B7"]
+  }
+}]
