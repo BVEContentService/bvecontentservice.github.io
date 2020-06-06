@@ -15,18 +15,20 @@
         } 
         catch (e) {}
     }
-    if (!referrer || !referrer.toLowerCase().includes("bvecontentservice")) {
-        var language = navigator.languages
-            ? navigator.languages[0]
-            : (navigator.language || navigator.userLanguage)
-        if (language.toLowerCase().includes("zh") && !location.href.toLowerCase().includes("/zh/")){
-            if (!location.origin) {
-                location.origin = location.protocol + "//" + location.hostname 
-                    + (location.port ? ':' + location.port: '');
-            }
-            location.href = location.origin + "/zh" + location.pathname;
-        }
-    }
+    $(function() {
+      if (!referrer || !referrer.toLowerCase().includes("bvecontentservice")) {
+          var language = navigator.languages
+              ? navigator.languages[0]
+              : (navigator.language || navigator.userLanguage)
+          if (language.toLowerCase().includes("zh") && !location.href.toLowerCase().includes("/zh/")){
+              if (!location.origin) {
+                  location.origin = location.protocol + "//" + location.hostname 
+                      + (location.port ? ':' + location.port: '');
+              }
+              location.href = location.origin + "/zh" + location.pathname;
+          }
+      }
+    });
     </script>
     <script type="text/javascript">
       function getParameterByName(name, url) {
