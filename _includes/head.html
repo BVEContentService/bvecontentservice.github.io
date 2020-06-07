@@ -20,11 +20,9 @@
             ? navigator.languages[0]
             : (navigator.language || navigator.userLanguage)
         if (language.toLowerCase().includes("zh") && !location.href.toLowerCase().includes("/zh/")){
-            if (!location.origin) {
-                location.origin = location.protocol + "//" + location.hostname 
-                    + (location.port ? ':' + location.port: '');
-            }
-            location.href = location.href.replace(location.pathname, "/zh" + location.pathname);
+            var pnp = location.href.lastIndexOf(location.pathname);
+            location.href = location.href.slice(0, pnp) + 
+              location.href.slice(pnp).replace(location.pathname, "/zh" + location.pathname);
         }
     }
   </script>
