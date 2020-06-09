@@ -5,7 +5,16 @@
   <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
   <script src="https://cdn.staticfile.org/jquery/3.5.1/jquery.min.js"></script>
   <title>{{ page.title | escape }}</title>
-
+  
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?cb7530d856028b50e4a48b547d02ba11";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
   <script type="text/javascript">
     var referrer = document.referrer;
     if (!referrer) {
