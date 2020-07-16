@@ -24,7 +24,8 @@
         } 
         catch (e) {}
     }
-    if (!referrer || !referrer.toLowerCase().includes("bvecontentservice")) {
+    var isFromInside = referrer && (referrer.toLowerCase().includes("bvecontentservice") || referrer.toLowerCase().includes("bvecs"));
+    if (!isFromInside) {
         var language = navigator.languages
             ? navigator.languages[0]
             : (navigator.language || navigator.userLanguage)
