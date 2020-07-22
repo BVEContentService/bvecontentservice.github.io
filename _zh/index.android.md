@@ -6,7 +6,10 @@ layout: home
 BVE内容服务系统是由 [@zbx1425](https://github.com/zbx1425) 开发的协议、软件，及由社区合作建设的服务器网络之总称，致力于为现今网络上的BVE Trainsim相关资源提供集中的索引和托管、以及更便利的一键安装等。
 
 如遇任何问题，欢迎联系开发者： [zbx1425@outlook.com](mailto:zbx1425@outlook.com)
-
+<p style="background:red; color:white; font-weight:bold; padding: 0.5em 1em">
+    注意！关于在列表中点击线路时发生闪退，导致无法下载线路的问题：<br/>
+    故障原因已确定，正在进行修复，将尽快放出修复后的程序新版本。
+</p>
 <div style="border: 2px solid #B71C1C; padding: 0.5em 1em; box-shadow:5px 5px 5px; background: #FFF8E1; margin-bottom: 1.5em">
     <p>
         如果您遇到下载极其缓慢的情况，可尝试在 [设置] 中打开“启用反向代理”。这<b>可能</b>能够加速下载。如果效果不佳，请记得再将其关闭。
