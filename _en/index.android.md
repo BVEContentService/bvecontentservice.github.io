@@ -3,19 +3,14 @@ title: Home
 layout: home
 ---
 
+<div style="background:yellow; color:red; font-weight:bold; padding: 0.5em 1em; border: 2px solid red">NOTICE: The server is currently under maintenance, route downloading might be temporarily unavailable. Sorry for the inconvenience. Duration TBD.</div>
+
 BVE Content Service System consists of the protocol and a series of softwares developed by [@zbx1425](https://github.com/zbx1425) , along with storage servers contributed by our community. We are working on indexing and hosting the BVE Trainsim route resources on the internet, and providing easier one-click installation for players.
 
 If any problem is encountered, feel free to contact developer at [zbx1425@outlook.com](mailto:zbx1425@outlook.com)!
 
-<div style="border: 2px solid #B71C1C; padding: 0.5em 1em; box-shadow:5px 5px 5px; background: #FFF8E1; margin-bottom: 1.5em">
-    <p>
-        If you are facing a really poor download speed, please try to turn on "Use Reverse Proxy" in settings. This <b>might</b> speed up the download. Turn it off again if it is not helping.
-    </p>
-</div>
 
-
-
-Most of the route resources in this software are hosted at own expense by **[@zbx1425](https://www.zbx1425.tk)**, while some are hosted with Pages or TeraCloud.
+Routes are hosted at own expense by **[@zbx1425](https://www.zbx1425.tk)**.
 
 
 
