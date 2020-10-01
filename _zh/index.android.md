@@ -3,8 +3,6 @@ title: Hmmsim线路库
 layout: home
 ---
 
-<div style="background:yellow; color:red; font-weight:bold; padding: 0.5em 1em; border: 2px solid red">注意：服务器目前正在维护当中，本程序可能暂时无法使用。请您谅解，具体恢复时间待定。</div>
-
 Hmmsim线路库是由 [@zbx1425](https://github.com/zbx1425) 开发的软件。
 本程序可让您仅需一键即可下载安装线路，省去人工查找、下载、移动文件的烦恼。
 本平台为国内两大中心CSSSC及ECMSC授权指定线路发布位置，安装此程序后即可下载国内最高质量的线路。
