@@ -10,10 +10,10 @@ This program enables you to search and install routes in a easier way.
 
 ## Download
 
-![Latest Version](https://api.zbx1425.tk:8953/build/bcs-apk/badge.php?title=LatestVersion)    
+![Latest Version](https://svc.bvecs.tk:8953/build/bcs-apk/badge.php?title=LatestVersion)    
 
 Click this huge button to download this app.  
-[![Android Download](/assets/images/btn_download_android.png)](https://api.zbx1425.tk:8953/build/bcs-apk)
+[![Android Download](/assets/images/btn_download_android.png)](https://svc.bvecs.tk:8953/build/bcs-apk)
 
 If any problem is encountered, feel free to contact developer at [zbx1425@outlook.com](mailto:zbx1425@outlook.com)!
 
@@ -23,6 +23,6 @@ By redistributing or modifying any of these programs, you automatically accept a
 
 ## Upload Routes
 
-A platform without resources is meaningless. We welcome developers to upload your routes, or repost authorized routes to our platform. Please refer to this document if you are interested!
+A platform without resources is meaningless. We welcome developers to upload your routes, or repost authorized routes to our platform！
 
-[![Route uploading tutorial](/assets/images/btn_tutorial_upload.png)](prepare.html)
+[![Route uploading tutorial](/assets/images/btn_tutorial_upload.png)](https://svc.bvecs.tk:8953/static/bcs-doc/)

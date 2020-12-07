@@ -7,7 +7,7 @@ layout: page
 "Hmmsim线路库" 是您要下载的这条线路的官方发布渠道。  
 请按以下大按钮下载此app！  
 然后，您就可以在其中下载本线路了。  
-[![Android Download](/assets/images/btn_download_android.png)](https://api.zbx1425.tk:8953/build/bcs-apk)
+[![Android Download](/assets/images/btn_download_android.png)](https://svc.bvecs.tk:8953/build/bcs-apk)
 
 ## 这是什么?
 BVE内容服务系统是由 [@zbx1425](https://github.com/zbx1425) 开发的软件及合作搭建的服务器之总称。

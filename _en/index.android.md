@@ -8,15 +8,15 @@ BVE Content Service System consists of the protocol and a series of softwares de
 If any problem is encountered, feel free to contact developer at [zbx1425@outlook.com](mailto:zbx1425@outlook.com)!
 
 
-Routes are hosted at own expense by **[@zbx1425](https://www.zbx1425.tk)**.
+Routes are hosted at own expense by **[@zbx1425](https://www.zbx1425.cn)**.
 
 
 
 ## Upload Routes
 
-A platform without resources is meaningless. We welcome developers to upload your routes, or repost authorized routes to our platform. Please refer to this document if you are interested!
+A platform without resources is meaningless. We welcome developers to upload your routes, or repost authorized routes to our platform!
 
-[![Route uploading tutorial](/assets/images/btn_tutorial_upload.png)](prepare.html)
+[![Route uploading tutorial](/assets/images/btn_tutorial_upload.png)](https://svc.bvecs.tk:8953/static/bcs-doc/)
 
 
 

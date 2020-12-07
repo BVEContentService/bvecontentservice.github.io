@@ -9,16 +9,15 @@ Hmmsim线路库是由 [@zbx1425](https://github.com/zbx1425) 开发的软件。
 
 如遇任何问题，欢迎联系开发者： [zbx1425@outlook.com](mailto:zbx1425@outlook.com)
 
-服务器由 **[@zbx1425](https://www.zbx1425.tk)** 自费提供。
+服务器由 **[@zbx1425](https://www.zbx1425.cn)** 自费提供。
 
 
 
 ## 上传线路
 
 没有资源的平台毫无意义。我们欢迎各位开发者将自行开发或获授权转载的资源上传到我们的平台！  
-如您对此有所兴趣，欢迎您参阅文档！
 
-[![线路上传教程](/assets/images/btn_tutorial_upload.png)](prepare.html)
+[![线路上传教程](/assets/images/btn_tutorial_upload.png)](https://svc.bvecs.tk:8953/static/bcs-doc/)
 
 
 

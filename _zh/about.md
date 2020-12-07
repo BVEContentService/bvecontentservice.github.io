@@ -6,7 +6,7 @@ navbar: "关于"
 
 编程：Nemo Zhang (zbx1425)  
 联络：[zbx1425@outlook.com](mailto:zbx1425@outlook.com)  
-网站：[https://zbx1425.tk](https://zbx1425.tk)  
+网站：[www.zbx1425.cn](https://www.zbx1425.cn)  
 Github：[@zbx1425](https://github.com/zbx1425)  
 BVE WorldWide：[@zbx1425](https://bveworldwide.forumotion.com/u1049)
 
