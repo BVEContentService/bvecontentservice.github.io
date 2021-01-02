@@ -3,13 +3,13 @@ title: Hmmsim线路库
 layout: home
 ---
 
+<div style="background:yellow; color:red; font-weight:bold; padding: 0 1em; border: 2px solid red" id="md-content"></div><script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script><script src="https://cdn.staticfile.org/markdown-it/11.0.0/markdown-it.min.js"></script><script>$.get("https://svc.bvecs.tk:8953/static/bcs-doc/zh-CN/bcsnotice/?raw").then(function(data){if(data==""){$("#md-content").remove();return;}document.getElementById("md-content").innerHTML=data;var b=document.getElementById("md-content").innerHTML.replace(/&(lt|gt|nbsp|amp|quot);/ig,function(b,c){return {lt:"<",gt:">",nbsp:" ",amp:"&",quot:"\""}[c]});location.search&&(b=b.replace(/{{SEARCH}}/g,location.search.replace("?",""))),document.getElementById("md-content").innerHTML=window.markdownit().render(b);for(var c=document.getElementsByTagName("a"),d=0;d<c.length;d++)c[d].target="_blank";});</script>
+
 Hmmsim线路库是由 [@zbx1425](https://github.com/zbx1425) 开发的软件。
 本程序可让您仅需一键即可下载安装线路，省去人工查找、下载、移动文件的烦恼。
 本平台为国内两大中心CSSSC及ECMSC授权指定线路发布位置，安装此程序后即可下载国内最高质量的线路。
 
 如遇任何问题，欢迎联系开发者： [zbx1425@outlook.com](mailto:zbx1425@outlook.com)
-
-服务器由 **[@zbx1425](https://www.zbx1425.cn)** 自费提供。
 
 
 
