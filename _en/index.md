@@ -10,10 +10,10 @@ This program enables you to search and install routes in a easier way.
 
 ## Download
 
-![Latest Version](https://svc.bvecs.tk:8953/build/bcs-apk/badge.php?title=LatestVersion)    
+![Latest Version](https://hbb.zbx1425.cn:8953/build/bcs-apk/badge.php?title=LatestVersion)    
 
 Click this huge button to download this app.  
-[![Android Download](/assets/images/btn_download_android.png)](https://svc.bvecs.tk:8953/build/bcs-apk)
+[![Android Download](/assets/images/btn_download_android.png)](https://hbb.zbx1425.cn:8953/build/bcs-apk)
 
 If any problem is encountered, feel free to contact developer at [zbx1425@outlook.com](mailto:zbx1425@outlook.com)!
 

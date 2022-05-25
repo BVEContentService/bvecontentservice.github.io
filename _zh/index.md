@@ -10,10 +10,10 @@ Hmmsim线路库是由 [@zbx1425](https://github.com/zbx1425) 开发的软件。
 
 ## 下载程序
 
-![最新版本](https://svc.bvecs.tk:8953/build/bcs-apk/badge.php?title=最新版本)    
+![最新版本](https://hbb.zbx1425.cn:8953/build/bcs-apk/badge.php?title=最新版本)    
 
 请点击此大按钮下载:  
-[![Android下载程序](/assets/images/btn_download_android.png)](https://svc.bvecs.tk:8953/build/bcs-apk)
+[![Android下载程序](/assets/images/btn_download_android.png)](https://hbb.zbx1425.cn:8953/build/bcs-apk)
 
 如遇任何问题，欢迎联系开发者： [zbx1425@outlook.com](mailto:zbx1425@outlook.com)
 
@@ -25,4 +25,4 @@ Hmmsim线路库是由 [@zbx1425](https://github.com/zbx1425) 开发的软件。
 
 没有资源的平台毫无意义。我们欢迎各位开发者将自行开发或获授权转载的资源上传到我们的平台！  
 
-[![线路上传教程](/assets/images/btn_tutorial_upload.png)](https://svc.bvecs.tk:8953/static/bcs-doc/)
+[![线路上传教程](/assets/images/btn_tutorial_upload.png)](https://hbb.zbx1425.cn:8953/static/bcs-doc/)
